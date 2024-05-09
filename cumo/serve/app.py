@@ -89,7 +89,7 @@ ONLY WORKS WITH GPU! By default, we load the model with 4-bit quantization to ma
             status_update_rate=10,
             api_open=False
         ).launch(
-            server_name="[::]",
+            server_name=gws.args.host,
             server_port=gws.args.port,
             share=gws.args.share
         )

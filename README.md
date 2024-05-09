@@ -48,8 +48,11 @@ cd CuMo
 ```
 
 2. Install dependencies.
+
+*We used python 3.9 for all experiments and it should be compatible with python 3.10 if you need.*
+
 ```bash
-conda create -n cumo python=3.10 -y
+conda create -n cumo python=3.9 -y
 conda activate cumo
 pip install --upgrade pip
 pip install -e .
@@ -72,8 +75,8 @@ The CuMo model weights are open-sourced at Huggingface:
 ### Gradio Web UI
 We provide a Gradio Web UI based [demo](). You can also setup the demo locally with
 ```bash
-CUDA_VISIBLE_DEVICES=0 python cumo/serve/app.py \
-    --model-path $JC_DIR/hf/CuMo-mistral-7b
+CUDA_VISIBLE_DEVICES=0 python -m cumo.serve.app \
+    --model-path checkpoints/CuMo-mistral-7b
 ```
 you can add `--bits 8` or `--bits 4` to save the GPU memory.
 
@@ -85,6 +88,7 @@ CUDA_VISIBLE_DEVICES=0 python -m cumo.serve.cli \
     --image-file cumo/serve/examples/waterview.jpg
 ```
 you can add `--load-4bit` or `--load-8bit` to save the GPU memory.
+
 
 ## Getting Started
 
