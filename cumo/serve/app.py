@@ -71,9 +71,7 @@ ONLY WORKS WITH GPU! By default, we load the model with 4-bit quantization to ma
 
     print(f"args: {gws.args}")
     model_path = gws.args.model_path
-    print(model_path)
     bits = gws.args.bits
-    print(bits)
     concurrency_count = int(os.getenv("concurrency_count", 5))
 
     controller_proc = start_controller()
