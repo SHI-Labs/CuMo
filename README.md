@@ -1,9 +1,9 @@
 
 # CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts
-<a href=''><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://chrisjuniorli.github.io/project/CuMo/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
-<a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
-<a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'></a>
+<a href='https://huggingface.co/jiachenl/CuMo-mistral-7b'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
+<a href='https://huggingface.co/datasets/jiachenl/CuMo_dataset'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'></a>
 <a href=''><img src='https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg'></a>
 
 [Jiachen Li](https://chrisjuniorli.github.io/),
@@ -17,7 +17,7 @@
 [Longyin Wen](http://www.cbsr.ia.ac.cn/users/lywen/)
 
 ## Release
-- [05/08] We released **CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts**. Check the [paper](), [project page]() and [codes](https://github.com/SHI-Labs/CuMo).
+- [05/08] We released **CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts** with [project page](https://chrisjuniorli.github.io/project/CuMo/) and [codes](https://github.com/SHI-Labs/CuMo).
 
 ## Contents
 - [Overview](#overview)
