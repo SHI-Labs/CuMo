@@ -49,11 +49,17 @@ cd CuMo
 
 2. Install dependencies.
 
-*We used python 3.9 for all experiments and it should be compatible with python 3.10 if you need.*
+*We used python 3.9 venv for all experiments and it should be compatible with python 3.9 or 3.10 under anaconda if you prefer to use it.*
 
 ```bash
+venv:
+python -m venv /path/to/new/virtual/cumo
+source activate /path/to/new/virtual/cumo
+
+anaconda:
 conda create -n cumo python=3.9 -y
 conda activate cumo
+
 pip install --upgrade pip
 pip install -e .
 ```
