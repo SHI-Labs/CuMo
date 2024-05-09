@@ -1,3 +1,6 @@
+# ------------------------------------------------------------------------
+# Modified from MMMU (https://github.com/MMMU-Benchmark/MMMU/tree/main)
+# ------------------------------------------------------------------------
 """Response Parsing and Evaluation for various models"""
 from typing import Dict
 

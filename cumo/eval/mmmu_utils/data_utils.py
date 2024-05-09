@@ -1,3 +1,6 @@
+# ------------------------------------------------------------------------
+# Modified from MMMU (https://github.com/MMMU-Benchmark/MMMU/tree/main)
+# ------------------------------------------------------------------------
 """Utils for data load, save, and process (e.g., prompt construction)"""
 
 import os

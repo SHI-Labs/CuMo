@@ -75,7 +75,7 @@ We provide a Gradio Web UI based [demo](). You can also setup the demo locally w
 CUDA_VISIBLE_DEVICES=0 python cumo/serve/app.py \
     --model-path $JC_DIR/hf/CuMo-mistral-7b
 ```
-you can add `--bits 8` or `--bits 4` to save the GPU memory and accelerates the inference.
+you can add `--bits 8` or `--bits 4` to save the GPU memory.
 
 ### CLI Inference
 If you prefer to star a demo without a web UI, you can use the following commands to run a demo with CuMo-Mistral-7b on your terminal:
@@ -84,7 +84,7 @@ CUDA_VISIBLE_DEVICES=0 python -m cumo.serve.cli \
     --model-path checkpoints/CuMo-mistral-7b \
     --image-file cumo/serve/examples/waterview.jpg
 ```
-you can add `--load-4bit` or `--load-8bit` to save the GPU memory and accelerates the inference.
+you can add `--load-4bit` or `--load-8bit` to save the GPU memory.
 
 ## Getting Started
 
@@ -106,8 +106,8 @@ We thank the authors of [LLaVA](https://github.com/haotian-liu/LLaVA), [MoE-LLaV
 [st-moe-pytorch](https://github.com/lucidrains/st-moe-pytorch), [mistral-src](https://github.com/mistralai/mistral-src) for releasing the source codes.
 
 ## License
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)]()
-[![Weight License](https://img.shields.io/badge/Weight%20License-CC%20By%20NC%204.0-red)]()
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)
+[![Weight License](https://img.shields.io/badge/Weight%20License-CC%20By%20NC%204.0-red)](WEIGHT_LICENSE)
 
 The weights of checkpoints are licensed under CC BY-NC 4.0 for non-commercial use. The codebase is licensed under Apache 2.0. This project utilizes certain datasets and checkpoints that are subject to their respective original licenses. Users must comply with all terms and conditions of these original licenses.
 The content produced by any version of CuMo is influenced by uncontrollable variables such as randomness, and therefore, the accuracy of the output cannot be guaranteed by this project. This project does not accept any legal liability for the content of the model output, nor does it assume responsibility for any losses incurred due to the use of associated resources and output results.
