@@ -54,7 +54,7 @@ cd CuMo
 ```bash
 venv:
 python -m venv /path/to/new/virtual/cumo
-source activate /path/to/new/virtual/cumo
+source /path/to/new/virtual/cumo/bin/activate
 
 anaconda:
 conda create -n cumo python=3.9 -y

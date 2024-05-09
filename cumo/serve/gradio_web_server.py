@@ -17,7 +17,7 @@ import hashlib
 
 logger = build_logger("gradio_web_server", "gradio_web_server.log")
 
-headers = {"User-Agent": "LLaVA Client"}
+headers = {"User-Agent": "CuMo"}
 
 no_change_btn = gr.Button()
 enable_btn = gr.Button(interactive=True)
@@ -281,7 +281,7 @@ block_css = """
 
 def build_demo(embed_mode, cur_dir=None, concurrency_count=10):
     textbox = gr.Textbox(show_label=False, placeholder="Enter text and press ENTER", container=False)
-    with gr.Blocks(title="LLaVA", theme=gr.themes.Default(), css=block_css) as demo:
+    with gr.Blocks(title="CuMo", theme=gr.themes.Default(), css=block_css) as demo:
         state = gr.State()
 
         if not embed_mode:
@@ -306,8 +306,14 @@ def build_demo(embed_mode, cur_dir=None, concurrency_count=10):
                 if cur_dir is None:
                     cur_dir = os.path.dirname(os.path.abspath(__file__))
                 gr.Examples(examples=[
-                    [f"{cur_dir}/examples/extreme_ironing.jpg", "What is unusual about this image?"],
-                    [f"{cur_dir}/examples/waterview.jpg", "What are the things I should be cautious about when I visit here?"],
+                    [f"{cur_dir}/examples/aveger.jpg", "Can you introduce this movie based on the poster?"],
+                    [f"{cur_dir}/examples/fridge.webp", "Can you describe what groceries are presented in this fridge?"],
+                    [f"{cur_dir}/examples/su7_4.jpg", "What car is it in this image?"],
+                    [f"{cur_dir}/examples/nvidia.jpeg", "Can you tell me what happened in this image?"],
+                    [f"{cur_dir}/examples/animal.webp", "What animals are in this image?"],
+                    [f"{cur_dir}/examples/noodle.png", "How many calories estimated in this bowl?"],
+                    [f"{cur_dir}/examples/disney.jpeg", "How many characters in this image?"],
+                    [f"{cur_dir}/examples/reka_6.jpeg", "What colour is my hat (im sitting on the bear)?"],
                 ], inputs=[imagebox, textbox])
 
                 with gr.Accordion("Parameters", open=False) as parameter_row:
