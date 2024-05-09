@@ -14,7 +14,7 @@
 [Fan Chen](),
 [Jitesh Jain](https://praeclarumjj3.github.io/),
 [Humphrey Shi](https://www.humphreyshi.com/home),
-[Longyin Wen](http://www.cbsr.ia.ac.cn/users/lywen/)
+[Longyin Wen](https://scholar.google.com/citations?user=PO9WFl0AAAAJ&hl=en)
 
 ## Release
 - [05/08] We released **CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts** with [project page](https://chrisjuniorli.github.io/project/CuMo/) and [codes](https://github.com/SHI-Labs/CuMo).
