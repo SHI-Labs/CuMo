@@ -66,7 +66,7 @@ if __name__ == "__main__":
     gws.models = []
 
     gws.title_markdown += """
-ONLY WORKS WITH GPU! By default, we load the model with 4-bit quantization to make it fit in smaller hardwares.
+ONLY WORKS WITH GPU! By default, we load the 16-bit model. You can change it to 8-bit or 4-bit by adding `--bits 8` or `--bits 4` to the demo launching command.
 """
 
     print(f"args: {gws.args}")

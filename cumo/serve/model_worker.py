@@ -66,7 +66,7 @@ class ModelWorker:
             model_path, model_base, self.model_name, load_8bit, load_4bit, device=self.device, use_flash_attn=use_flash_attn)
         
         self.model.config.training = False
-        self.is_multimodal = 'llava' in self.model_name.lower()
+        self.is_multimodal = 'llava' in self.model_name.lower() or 'cumo' in self.model_name.lower()
 
         if not no_register:
             self.register_to_controller()
@@ -275,7 +275,7 @@ if __name__ == "__main__":
     logger.info(f"args: {args}")
 
     if args.multi_modal:
-        logger.warning("Multimodal mode is automatically detected with model name, please make sure `llava` is included in the model path.")
+        logger.warning("Multimodal mode is automatically detected with model name, please make sure `cumo` is included in the model path.")
 
     worker = ModelWorker(args.controller_address,
                          args.worker_address,
