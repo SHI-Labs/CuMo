@@ -30,11 +30,15 @@
 ## Overview
 
 <div align=center>
-<img width="100%" src="assets/archi_ppt.png"/>
+<img width="50%" src="assets/teaser.png"/>
 </div>
 
-In this project, we delve into the usage and training recipe of leveraging MoE in multimodal LLMs. We propose __CuMo__, which incorporates Co-upcycled Top-K sparsely-gated Mixture-of-experts blocks into the vision encoder, MLP connector, and LLM components, thereby enhancing the capabilities of multimodal LLMs. We further adopt a three-stage training approach with auxiliary losses to stabilize the training process and maintain a balanced loading of experts.
+In this project, we delve into the usage and training recipe of leveraging MoE in multimodal LLMs. We propose __CuMo__, which incorporates Co-upcycled Top-K sparsely-gated Mixture-of-experts blocks into the vision encoder and the MLP connector, thereby enhancing the capabilities of multimodal LLMs. We further adopt a three-stage training approach with auxiliary losses to stabilize the training process and maintain a balanced loading of experts.
 CuMo is exclusively trained on open-sourced datasets and achieves comparable performance to other state-of-the-art multimodal LLMs on multiple VQA and visual-instruction-following benchmarks.
+
+<div align=center>
+<img width="100%" src="assets/archi.png"/>
+</div>
 
 ## Installation
 1. Clone this repo.
