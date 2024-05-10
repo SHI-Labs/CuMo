@@ -254,7 +254,7 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
 
 title_markdown = ("""
 # CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts
-[[Project Page](https://chrisjuniorli.github.io/project/CuMo/)] [[Code](https://github.com/SHI-Labs/CuMo)] [[Model](https://huggingface.co/jiachenl/CuMo-mistral-7b)] | 📚 [[Arxiv]()]]
+[[Project Page](https://chrisjuniorli.github.io/project/CuMo/)] [[Code](https://github.com/SHI-Labs/CuMo)] [[Model](https://huggingface.co/shi-labs/CuMo-mistral-7b)] | 📚 [[Arxiv]()]]
 """)
 
 tos_markdown = ("""

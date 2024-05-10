@@ -1,9 +1,9 @@
 
 # CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts
 <a href='https://chrisjuniorli.github.io/project/CuMo/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-<a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
-<a href='https://huggingface.co/jiachenl/CuMo-mistral-7b'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
-<a href='https://huggingface.co/datasets/jiachenl/CuMo_dataset'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'></a>
+<a href='https://arxiv.org/abs/2405.05949'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://huggingface.co/shi-labs/CuMo-mistral-7b'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
+<a href='https://huggingface.co/datasets/shi-labs/CuMo_dataset'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'></a>
 <a href=''><img src='https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg'></a>
 
 [Jiachen Li](https://chrisjuniorli.github.io/),
@@ -17,6 +17,7 @@
 [Longyin Wen](https://scholar.google.com/citations?user=PO9WFl0AAAAJ&hl=en)
 
 ## Release
+- [05/08] Check out the [Arxiv](https://arxiv.org/abs/2405.05949) version of the paper!
 - [05/08] We released **CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts** with [project page](https://chrisjuniorli.github.io/project/CuMo/) and [codes](https://github.com/SHI-Labs/CuMo).
 
 ## Contents
@@ -74,8 +75,8 @@ pip install flash-attn --no-build-isolation
 The CuMo model weights are open-sourced at Huggingface: 
 | Model | Base LLM | Vision Encoder | MLP Connector | Download |
 |----------|----------|----------|----------|----------------|
-| CuMo-7B | Mistral-7B-Instruct-v0.2 | CLIP-MoE | MLP-MoE | [HF ckpt](https://huggingface.co/jiachenl/CuMo-mistral-7b) |
-| CuMo-8x7B | Mixtral-8x7B-Instruct-v0.1 | CLIP-MoE | MLP-MoE | [HF ckpt](https://huggingface.co/jiachenl/CuMo-mixtral-8x7b) |
+| CuMo-7B | Mistral-7B-Instruct-v0.2 | CLIP-MoE | MLP-MoE | [HF ckpt](https://huggingface.co/shi-labs/CuMo-mistral-7b) |
+| CuMo-8x7B | Mixtral-8x7B-Instruct-v0.1 | CLIP-MoE | MLP-MoE | [HF ckpt](https://huggingface.co/shi-labs/CuMo-mixtral-8x7b) |
 
 ## Demo setup
 ### Gradio Web UI

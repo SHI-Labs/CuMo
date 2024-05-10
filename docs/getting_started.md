@@ -25,7 +25,7 @@ For the visual intruction tuning stage, we use the a mixture of datasets for tra
 - [ALLaVA](https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V)
 - [LIMA](https://huggingface.co/datasets/GAIR/lima)
 
-Please download these datasets following the instructions and the [json files](https://huggingface.co/datasets/jiachenl/CuMo_dataset). The datasets are structured as:
+Please download these datasets following the instructions and the [json files](https://huggingface.co/datasets/shi-labs/CuMo_dataset). The datasets are structured as:
 
 ```
 CuMo
@@ -86,7 +86,7 @@ bash scripts/cumo/mistral_7b/sft_mistral_7b.sh
 Note that these scripts are for training the model on a single node of 8xA100s. If you want to train the model on multiple nodes, you can use the [deepspeed](https://www.deepspeed.ai/getting-started/) multi-node trainings with added hostfile in the scripts.
 
 ## Evaluation
-We evaluate CuMo models on multiple benchmarks and many scripts are based on [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md) evaluation settings. We've adapted some of them into multi-GPU evaluation scripts and added evaluations on MMMU and Mathvista. You can download the checkpoints for CuMo [mistral-7b](https://huggingface.co/jiachenl/CuMo-mistral-7b) / [mixtral-8x7b](https://huggingface.co/jiachenl/CuMo-mixtral-8x7b) models and follow the evaluation instructions in [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md) to download the datasets accordingly. The datasets are structured as:
+We evaluate CuMo models on multiple benchmarks and many scripts are based on [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md) evaluation settings. We've adapted some of them into multi-GPU evaluation scripts and added evaluations on MMMU and Mathvista. You can download the checkpoints for CuMo [mistral-7b](https://huggingface.co/shi-labs/CuMo-mistral-7b) / [mixtral-8x7b](https://huggingface.co/shi-labs/CuMo-mixtral-8x7b) models and follow the evaluation instructions in [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md) to download the datasets accordingly. The datasets are structured as:
 
 ```
 CuMo
