@@ -4,7 +4,7 @@
 <a href='https://arxiv.org/abs/2405.05949'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href='https://huggingface.co/shi-labs/CuMo-mistral-7b'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
 <a href='https://huggingface.co/datasets/shi-labs/CuMo_dataset'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'></a>
-<a href=''><img src='https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg'></a>
+<a href='https://huggingface.co/spaces/jiachenl/CuMo-7b-zero'><img src='https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg'></a>
 
 [Jiachen Li](https://chrisjuniorli.github.io/),
 [Xinyao Wang](),
@@ -17,16 +17,24 @@
 [Longyin Wen](https://scholar.google.com/citations?user=PO9WFl0AAAAJ&hl=en)
 
 ## Release
-- [05/08] Check out the [Arxiv](https://arxiv.org/abs/2405.05949) version of the paper!
+- [05/10] Check out the [Demo](https://huggingface.co/spaces/jiachenl/CuMo-7b-zero) based on Gradio zero gpu space.
+- [05/09] Check out the [Arxiv](https://arxiv.org/abs/2405.05949) version of the paper!
 - [05/08] We released **CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts** with [project page](https://chrisjuniorli.github.io/project/CuMo/) and [codes](https://github.com/SHI-Labs/CuMo).
 
 ## Contents
-- [Overview](#overview)
-- [Installation](#installation)
-- [Getting Started](#getting-started)
-- [Citation](#citation)
-- [Acknowledgement](#acknowledgement)
-- [License](#license)
+- [CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts](#cumo-scaling-multimodal-llm-with-co-upcycled-mixture-of-experts)
+  - [Release](#release)
+  - [Contents](#contents)
+  - [Overview](#overview)
+  - [Installation](#installation)
+  - [Model Zoo](#model-zoo)
+  - [Demo setup](#demo-setup)
+    - [Gradio Web UI](#gradio-web-ui)
+    - [CLI Inference](#cli-inference)
+  - [Getting Started](#getting-started)
+  - [Citation](#citation)
+  - [Acknowledgement](#acknowledgement)
+  - [License](#license)
 
 ## Overview
 
@@ -80,7 +88,7 @@ The CuMo model weights are open-sourced at Huggingface:
 
 ## Demo setup
 ### Gradio Web UI
-We provide a Gradio Web UI based [demo](). You can also setup the demo locally with
+We provide a Gradio Web UI based [demo](https://huggingface.co/spaces/jiachenl/CuMo-7b-zero). You can also setup the demo locally with
 ```bash
 CUDA_VISIBLE_DEVICES=0 python -m cumo.serve.app \
     --model-path checkpoints/CuMo-mistral-7b
