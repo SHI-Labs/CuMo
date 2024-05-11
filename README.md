@@ -22,19 +22,18 @@
 - [05/08] We released **CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts** with [project page](https://chrisjuniorli.github.io/project/CuMo/) and [codes](https://github.com/SHI-Labs/CuMo).
 
 ## Contents
-- [CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts](#cumo-scaling-multimodal-llm-with-co-upcycled-mixture-of-experts)
-  - [Release](#release)
-  - [Contents](#contents)
-  - [Overview](#overview)
-  - [Installation](#installation)
-  - [Model Zoo](#model-zoo)
-  - [Demo setup](#demo-setup)
-    - [Gradio Web UI](#gradio-web-ui)
-    - [CLI Inference](#cli-inference)
-  - [Getting Started](#getting-started)
-  - [Citation](#citation)
-  - [Acknowledgement](#acknowledgement)
-  - [License](#license)
+- [Release](#release)
+- [Contents](#contents)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Model Zoo](#model-zoo)
+- [Demo setup](#demo-setup)
+  - [Gradio Web UI](#gradio-web-ui)
+  - [CLI Inference](#cli-inference)
+- [Getting Started](#getting-started)
+- [Citation](#citation)
+- [Acknowledgement](#acknowledgement)
+- [License](#license)
 
 ## Overview
 
