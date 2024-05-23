@@ -1,6 +1,6 @@
 #!/bin/bash
 
-deepspeed llava/train/train_mem.py \
+deepspeed cumo/train/train_mem.py \
     --deepspeed ./scripts/zero3.json \
     --model_name_or_path mistralai/Mixtral-8x7B-Instruct-v0.1 \
     --version plain \
