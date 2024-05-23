@@ -1,6 +1,6 @@
 #!/bin/bash
 
-deepspeed llava/train/train_mem.py \
+deepspeed cumo/train/train_mem.py \
     --deepspeed ./scripts/zero3_offload.json \
     --model_name_or_path $CuMo_DIR/checkpoints/cumo-mixtral-8x7b-pft \
     --version mistral_instruct_system \
