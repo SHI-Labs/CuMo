@@ -17,7 +17,7 @@
 [Longyin Wen](https://scholar.google.com/citations?user=PO9WFl0AAAAJ&hl=en)
 
 ## Release
-- [06/07] We released checkpoints of CuMo after pre-training and pre-finetuning stages at [Cumo-misc](https://huggingface.co/shi-labs/CuMo-misc).
+- [06/07] We released checkpoints of CuMo after pre-training and pre-finetuning stages at [CuMo-misc](https://huggingface.co/shi-labs/CuMo-misc).
 - [05/10] Check out the [Demo](https://huggingface.co/spaces/shi-labs/CuMo-7b-zero) based on Gradio zero gpu space.
 - [05/09] Check out the [Arxiv](https://arxiv.org/abs/2405.05949) version of the paper!
 - [05/08] We released **CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts** with [project page](https://chrisjuniorli.github.io/project/CuMo/) and [codes](https://github.com/SHI-Labs/CuMo).
