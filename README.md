@@ -17,6 +17,7 @@
 [Longyin Wen](https://scholar.google.com/citations?user=PO9WFl0AAAAJ&hl=en)
 
 ## Release
+- [06/07] We released checkpoints of CuMo after pre-training and pre-finetuning stages at [Cumo-misc](https://huggingface.co/shi-labs/CuMo-misc).
 - [05/10] Check out the [Demo](https://huggingface.co/spaces/shi-labs/CuMo-7b-zero) based on Gradio zero gpu space.
 - [05/09] Check out the [Arxiv](https://arxiv.org/abs/2405.05949) version of the paper!
 - [05/08] We released **CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts** with [project page](https://chrisjuniorli.github.io/project/CuMo/) and [codes](https://github.com/SHI-Labs/CuMo).
@@ -82,8 +83,14 @@ pip install flash-attn --no-build-isolation
 The CuMo model weights are open-sourced at Huggingface: 
 | Model | Base LLM | Vision Encoder | MLP Connector | Download |
 |----------|----------|----------|----------|----------------|
-| CuMo-7B | Mistral-7B-Instruct-v0.2 | CLIP-MoE | MLP-MoE | [HF ckpt](https://huggingface.co/shi-labs/CuMo-mistral-7b) |
-| CuMo-8x7B | Mixtral-8x7B-Instruct-v0.1 | CLIP-MoE | MLP-MoE | [HF ckpt](https://huggingface.co/shi-labs/CuMo-mixtral-8x7b) |
+| CuMo-7B | Mistral-7B-Instruct-v0.2 | CLIP-MoE | MLP-MoE | 🤗 [HF ckpt](https://huggingface.co/shi-labs/CuMo-mistral-7b) |
+| CuMo-8x7B | Mixtral-8x7B-Instruct-v0.1 | CLIP-MoE | MLP-MoE | 🤗 [HF ckpt](https://huggingface.co/shi-labs/CuMo-mixtral-8x7b) |
+
+The intermediate checkpoints after pre-training and pre-finetuning are also released at Huggingface:
+| Model | Base LLM | Stage | Download |
+|----------|----------|----------|--------------|
+| CuMo-7B | Mistral-7B-Instruct-v0.2 | Pre-Training | 🤗 [HF ckpt](https://huggingface.co/shi-labs/CuMo-misc/tree/main/cumo-mistral-7b) |
+| CuMo-8x7B | Mixtral-8x7B-Instruct-v0.1 | Pre-Finetuning | 🤗 [HF ckpt](https://huggingface.co/shi-labs/CuMo-misc/tree/main/cumo-mixtral-8x7b) |
 
 ## Demo setup
 ### Gradio Web UI
